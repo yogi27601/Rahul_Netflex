@@ -1,7 +1,7 @@
 const express= require("express")
 const app = express()
 const PORT= 3000;
-const controller = require("../server/controllers/controll")
+const controller = require("./controllers/controll")
 const cors = require("cors")
 const path = require("path")
 
